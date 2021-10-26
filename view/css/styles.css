@@ -109,6 +109,9 @@ header {
     padding-bottom: 15px;
     text-align: center;
 }
+h1 {
+    font-size: 1em;
+}
 .subtitle {
     font-size: 1.6em;
     font-weight: 500;
@@ -330,9 +333,9 @@ a, a:hover, a:visited, a:active {
 #image-top {
     background-image: url("/images/img-bg-3.jpg");
     background-position: 75% 45%;
-    height: 350px;
+    height: 550px;
 }
-#image-top p {
+#image-top h1 {
     font-size: 1.7em;
     padding-left: 15%;
     padding-right: 15%;
@@ -343,17 +346,17 @@ a, a:hover, a:visited, a:active {
 #image-canastas {
     background-image: url("/images/img-bg-1.jpg");
     background-position: 37% 23%;
-    height: 350px;
+    height: 550px;
 }
 #image-tablas {
     background-image: url("/images/img-bg-2.jpg");
     background-position: 35% 55%;
-    height: 350px;
+    height: 550px;
 }
 #image-nosotros {
     background-image: url("/images/img-bg-4.jpg");
     background-position: 75% 37%;
-    height: 350px;
+    height: 550px;
 }
 #image-canastas-text {
     display: none;
@@ -439,6 +442,18 @@ footer > div {
 }
 .foot-icon-1 {
     font-size: 1.2em;
+}
+
+@media(max-width: 1500px){
+    #image-top, #image-canastas, #image-tablas, #image-nosotros {
+        height: 450px;
+    }
+}
+
+@media(max-width: 1300px){
+    #image-top, #image-canastas, #image-tablas, #image-nosotros {
+        height: 350px;
+    }
 }
 
 @media(max-width: 935px){
